@@ -129,6 +129,7 @@
             fixed4 orgin_img = tex2D(_MainTex, i.uv.xy); 
             fixed4 blur_img = tex2D(_Bloom, i.uv.zw);
             fixed4 result=orgin_img+blur_img;
+            //return result;
 			return mask(orgin_img,result);//原图与模糊图叠加
 		} 
 
