@@ -300,10 +300,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bloomShader: {fileID: 4800000, guid: cbea1a34126eff341872791ca01a863b, type: 3}
-  iterations: 3
-  blurSpread: 0.32
+  iterations: 2
+  blurSpread: 2.56
   downSample: 2
-  luminanceThreshold: 0
+  luminanceThreshold: 0.95
 --- !u!114 &438404670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -320,7 +320,7 @@ MonoBehaviour:
   iterations: 2
   blurSpread: 2.56
   downSample: 2
-  luminanceThreshold: 0.56
+  luminanceThreshold: 0
 --- !u!1 &601972987
 GameObject:
   m_ObjectHideFlags: 0
@@ -688,7 +688,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 567bf77d90e2c0b4581ed39d813bab74, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e16936b383285b8498b05eebc6a9803d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

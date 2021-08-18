@@ -124,13 +124,43 @@
             return lerp(src,color,1.0-src.a);
         }
 
+        fixed4 mask_chose1(fixed4 src,fixed4 color)//alpha=1时bloon有效
+        {
+            if(1e-1>1.0-src.a)
+            {
+                
+                return color;  
+            }
+            else
+            {
+                return src;
+                         
+            }
+        }
+
+        fixed4 mask_chose0(fixed4 src,fixed4 color)//alpha=0时bloom有效
+        {
+            if(1e-1>1.0-src.a)
+            {
+                
+                return src;  
+            }
+            else
+            {
+                return color;
+                         
+            }
+        }
+
 		fixed4 fragBloom(v2fBloom i) : SV_Target {
             //return tex2D(_Bloom, i.uv.zw);//for debug 仅输出处理后图像
             fixed4 orgin_img = tex2D(_MainTex, i.uv.xy); 
             fixed4 blur_img = tex2D(_Bloom, i.uv.zw);
             fixed4 result=orgin_img+blur_img;
             //return result;
-			return mask(orgin_img,result);//原图与模糊图叠加
+			//return mask(orgin_img,result);//原图与模糊图叠加 lerp
+			return mask_chose1(orgin_img,result);//原图与模糊图叠加 带alpha阈值判断
+			//return mask_chose0(orgin_img,result);//原图与模糊图叠加 带alpha阈值判断
 		} 
 
 
