@@ -321,13 +321,13 @@ MonoBehaviour:
   godRayShader: {fileID: 4800000, guid: 0bc8fc40a7bee2549be56db4580925a0, type: 3}
   colorThreshold: {r: 0.39215687, g: 0.39215687, b: 0.39215687, a: 1}
   lightColor: {r: 0.9019608, g: 0.8488747, b: 0.5529412, a: 1}
-  lightFactor: 3.1
-  samplerScale: 4.53
+  lightFactor: 2.25
+  samplerScale: 4.44
   blurIteration: 4
   downSample: 2
   lightTransform: {fileID: 1681870549}
-  lightRadius: 1.39
-  lightPowFactor: 2.43
+  lightRadius: 1.94
+  lightPowFactor: 2.97
 --- !u!114 &438404668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -527,7 +527,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &687797945
 GameObject:
@@ -889,7 +889,7 @@ Transform:
   m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: -30}
 --- !u!1 &1677989120
 GameObject:
@@ -1000,7 +1000,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1681870549
 Transform:
   m_ObjectHideFlags: 0
@@ -1009,11 +1009,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681870548}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 9.6, z: 0}
+  m_LocalPosition: {x: 5.21, y: 10.51, z: 1.33}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1760492895
 GameObject:
@@ -1107,7 +1107,7 @@ Transform:
   m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: -30}
 --- !u!1 &1839745286
 GameObject:
@@ -1201,7 +1201,7 @@ Transform:
   m_LocalScale: {x: 2.9617, y: 2.9617, z: 2.9617}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &1911474240
 GameObject:
@@ -1387,5 +1387,5 @@ Transform:
   m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: -30}
