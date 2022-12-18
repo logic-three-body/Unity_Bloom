@@ -1,6 +1,6 @@
 # 4.1 Bloom
 
-课程链接：[【技术美术百人计划】图形 4.1 Bloom算法 游戏中的辉光效果实现_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1a3411z7LC?p=2)
+博客链接：[Bloom](https://www.yuque.com/6527chen/ldyt32/yknxgb)
 
 项目地址：[logic-three-body/Unity_Bloom: Unity Post procession about bloom (github.com)](https://github.com/logic-three-body/Unity_Bloom)
 
@@ -757,7 +757,3 @@ Shader "Unlit/GodRay"
 }
 
 ```
-
-其他
-
-待补充...
